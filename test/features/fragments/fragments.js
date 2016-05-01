@@ -27,7 +27,7 @@ var fragments = function (text)
     'use strict';
 
     var mapping = {
-        button: element,
+        button: element.
         type: element,
         fifa: element,
         rank: element,
