@@ -27,7 +27,7 @@ var fragments = function (text)
     'use strict';
 
     var mapping = {
-        button: element.
+        button: element,
         type: element,
         fifa: element,
         rank: element,
@@ -36,6 +36,8 @@ var fragments = function (text)
 
 
     };
+
+    
 
     return byString(mapping, text);
 };
