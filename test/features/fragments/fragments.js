@@ -27,17 +27,15 @@ var fragments = function (text)
     'use strict';
 
     var mapping = {
-        button: element,
-        type: element,
-        fifa: element,
-        rank: element,
-        team: element,
-        totalPoints: element
+        button: element.bind(null,by.id('button')),
+        type: element.bind(null,by.id('type')),
+        fifa: element.bind(null,by.id('fifa')),
+        rank: element.bind(null,by.id('rank')),
+        team: element.bind(null,by.id('team')),
+        totalPoints: element.bind(null,by.id('totalPoints'))
 
 
     };
-
-    
 
     return byString(mapping, text);
 };
